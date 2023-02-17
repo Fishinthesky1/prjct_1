@@ -2,7 +2,7 @@ from bases import Bases
 from calculator.evaluation import evaluate
 bases = Bases()
 
-def conv_1(bs_1,bs_2,bs_3,k: str) -> int:
+def conv_1(k, bs_1, bs_2, bs_3 : str) -> int:
     if k >= 5:
         bs_1 = input(("Enter 1st value").lower)
         bs_2 = input(("Enter 2nd value").lower)
