@@ -12,12 +12,9 @@ print("6. base 02")
 print("7. base 12")
 print("8. base 16")
 
-try:
-    z = int(input('Enter operation from 1 to 4'))
-    k = int(input("Enter number systems from 5 to 8"))
-except ValueError:
-    z == 0
-    print("Dont print zero")
+
+z = int(input('Enter operation from 1 to 4'))
+k = int(input("Enter number systems from 5 to 8"))
  
 try:
     x = int(input('Enter fisrt number:'))
