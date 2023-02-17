@@ -17,6 +17,6 @@ def conv_1(bs_1,bs_2,bs_3,k: str) -> int:
     elif  k == 8:
         x = bases.fromBase16(bs_1)
         y = bases.fromBase16(bs_2)
-        bs_3 = bases.toBase16(evaluate(x,y,z))
+        bs_3 = bases.toBase16(evaluate(x, y, z))
         
     return x,y,bs_3
