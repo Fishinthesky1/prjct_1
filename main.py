@@ -14,15 +14,10 @@ print("8. base 16")
 
 
 z = int(input('Enter operation from 1 to 4'))
-k = int(input("Enter number systems from 5 to 8"))
- 
-try:
-    x = int(input('Enter fisrt number:'))
-    y = int(input('Enter second number:'))
-    
-except ValueError:
-    print("Enter only integer please")
+i = int(input("Enter number systems from 5 to 8"))
 
+x = int(input('Enter fisrt number:'))
+y = int(input('Enter second number:')) 
 j = None
 bs_3 = None
 
